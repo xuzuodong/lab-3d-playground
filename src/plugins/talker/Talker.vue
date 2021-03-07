@@ -276,9 +276,9 @@ export default {
         // scene.state.foo -> scene.foo
         this.scene = new Proxy(this.scene, {
           get(obj, prop) {
-            if (prop in obj?.state) {
+            if (obj.state && prop in obj.state) {
               return obj.state[prop]
-            } else if (prop in obj?.actions) {
+            } else if (obj.actions && prop in obj.actions) {
               return obj.actions[prop]
             }
             return obj[prop]

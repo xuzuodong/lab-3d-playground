@@ -1,14 +1,22 @@
 [
     {
-        "name": "例子-基础",
-        "alias": "example-basic"
+        "name": "例子 1-基础",
+        "alias": "example-1-basic"
     },
     {
-        "name": "例子-钩子",
-        "alias": "example-hooks"
+        "name": "例子 2-钩子",
+        "alias": "example-2-hooks"
     },
     {
-        "name": "例子-工具",
-        "alias": "example-tools"
+        "name": "例子 3-控制 3D 场景",
+        "alias": "example-3-3d"
+    },
+    {
+        "name": "例子 4-控制 2D 视图",
+        "alias": "example-4-2d"
+    },
+    {
+        "name": "例子 5-钩子参数",
+        "alias": "example-5-hooks-params"
     }
 ]
